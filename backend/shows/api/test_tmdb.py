@@ -86,7 +86,11 @@ class TMDBTestCase(unittest.TestCase):
     def test_get_info(self):
         result = tmdb.get_info(MOVIE_ID_1, "movie")  
         print(result)
-        result = tmdb.get_info(SHOW_ID_2, "tv")  
+        #result = tmdb.get_info(SHOW_ID_2, "tv")  
+        #print(result)
+        
+    def test_tv_page(self):
+        result = tmdb.get_tv_page()
         print(result)
         
 if __name__ == "__main__":

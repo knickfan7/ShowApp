@@ -31,6 +31,11 @@ ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
 CORS_ORIGIN_ALLOW_ALL = True
 CORS_URLS_REGEX = r'^/api/.*$'
 
+REST_KNOX = {
+
+  'TOKEN_TTL': None,
+
+}
 
 # Application definition
 

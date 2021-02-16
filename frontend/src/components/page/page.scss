@@ -1,0 +1,32 @@
+.browse {
+  .side-menu-navigation {
+    text-align: center;
+    li {
+      list-style: none;
+      padding: 0px;
+    }
+  }
+
+  .container {
+    margin-bottom: 40px;
+    position: relative;
+    text-align: center;
+
+    .bottom-right {
+      position: absolute;
+      bottom: 8px;
+      right: 25px;
+
+      .ant-typography {
+        color: white;
+      }
+    }
+
+    img {
+      cursor: pointer !important;
+
+      height: 400px !important;
+      width: 300px !important;
+    }
+  }
+}

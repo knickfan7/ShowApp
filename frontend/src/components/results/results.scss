@@ -1,0 +1,49 @@
+$primary-color: #1675b6;
+$secondary-color: white;
+
+.results {
+  text-align: center;
+
+  .ant-typography {
+    margin-top: 10px;
+  }
+
+  .filter {
+    margin: auto;
+    width: 350px;
+
+    .ant-card-head {
+      background-color: $primary-color;
+      color: $secondary-color;
+    }
+
+    .filter-btn {
+      display: block;
+      height: 48px;
+      margin: 0 auto 10px auto;
+      width: 100%;
+
+      h2 {
+        float: left;
+      }
+
+      h3 {
+        float: right;
+      }
+    }
+  }
+
+  .no-results {
+    text-align: start;
+  }
+
+  .pagination {
+    img {
+      height: 150px;
+      width: 100px;
+    }
+    .ant-card {
+      margin-bottom: 15px;
+    }
+  }
+}

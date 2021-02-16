@@ -1,0 +1,34 @@
+$primary-color: #1675b6;
+$secondary-color: white;
+
+nav {
+  background-color: $primary-color;
+  box-shadow: 0 8px 6px -6px black;
+  height: 57px;
+  margin-bottom: 80px;
+
+  .navbar {
+    background-color: transparent;
+    border-bottom: none;
+    line-height: 55px;
+    margin: auto;
+    width: 50%;
+
+    li {
+      cursor: pointer !important;
+    }
+  }
+
+  .ant-typography {
+    color: $secondary-color !important;
+  }
+
+  .ant-menu-item {
+    color: $secondary-color;
+  }
+
+  .ant-dropdown-trigger {
+    color: $secondary-color;
+    float: right;
+  }
+}

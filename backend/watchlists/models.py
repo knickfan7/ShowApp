@@ -9,18 +9,17 @@ from shows.models import Shows
 class Watchlists(models.Model):
     class Meta:
         verbose_name_plural = "Watchlists"
-        
-    name = models.CharField(max_length=255)
+    status = models.CharField(max_length=255)
     owner = models.ForeignKey(
         User, related_name='watchlists', on_delete=models.CASCADE, null=True
     )
-    # movie/show/anime field
     show = models.ForeignKey(Shows, on_delete=models.CASCADE, blank=True, null=True)
-    description = models.TextField(null=True, blank=True)
+    comment = models.TextField(null=True, blank=True)
+    rating = models.FloatField(null=True, blank=True)
     created_dt = models.DateField(editable=False)
     
     def __str__(self):
-        return self.name
+        return self.status
     
     def save(self, *args, **kwargs):
         if not self.id:

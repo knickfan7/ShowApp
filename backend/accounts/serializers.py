@@ -23,13 +23,6 @@ class RegisterSerializer(serializers.ModelSerializer):
             validated_info['email'],
             validated_info['password']
         )
-        '''
-        Watchlists.objects.create(owner=user, name='Completed')
-        Watchlists.objects.create(owner=user, name="Currently Watching")
-        Watchlists.objects.create(owner=user, name="Dropped")
-        Watchlists.objects.create(owner=user, name="Plan to Watch")
-        Watchlists.objects.create(owner=user, name="On Hold")
-        '''
         return user
     
 class LoginSerializer(serializers.Serializer):

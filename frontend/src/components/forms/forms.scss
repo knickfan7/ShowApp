@@ -1,0 +1,84 @@
+$primary-color: #1675b6;
+$secondary-color: white;
+
+// TODO rewrite UX for signup/signin low priority
+.form {
+  border: 10px solid #e1e7f5 !important;
+  margin: 0 auto !important;
+  width: 41em;
+
+  .ant-card-body {
+    border: 1px solid rgba(0, 0, 0, 0.14);
+    box-shadow: 0 1px 1px rgb(0, 0, 0);
+    border-radius: 4px;
+    height: 611px;
+
+    .ant-col {
+      margin-left: 2em;
+      margin-right: 2em;
+
+      .ant-typography {
+        color: $secondary-color !important;
+      }
+    }
+  }
+
+  .ant-form {
+    .form-btn {
+      display: block;
+      margin: 0 auto 20px auto;
+      height: 42px;
+      margin-top: 25px;
+      width: 160px;
+    }
+
+    .submit {
+      background-color: $primary-color;
+      color: $secondary-color;
+    }
+
+    .forgot-pass {
+      border-color: transparent;
+      color: $primary-color;
+    }
+
+    .redirect {
+      background-color: #e1e7f5;
+      color: $primary-color;
+    }
+
+    .div-redirect {
+      display: block;
+      text-align: center;
+      margin: auto;
+
+      .form-btn {
+        display: inline;
+        margin-left: 20px;
+      }
+    }
+  }
+}
+
+.watchlist-form {
+  width: 898px !important;
+
+  .ant-dropdown-trigger {
+    margin-left: 100px;
+    width: 200px !important;
+  }
+
+  .comments {
+    margin-left: 73px;
+  }
+
+  img {
+    height: 286px;
+    width: 203.33px;
+  }
+
+  .ant-rate {
+    color: $primary-color;
+    margin-left: 65px;
+  }
+}

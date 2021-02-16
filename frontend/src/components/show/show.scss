@@ -1,0 +1,107 @@
+$primary-color: #1675b6;
+$secondary-color: white;
+
+.show-container {
+  .ant-input-search {
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  .details {
+    margin-bottom: 25px;
+    margin-left: 100px;
+
+    .ant-card-head {
+      background-color: $primary-color;
+      color: $secondary-color;
+      text-align: center;
+    }
+
+    li {
+      list-style-type: none;
+      margin-bottom: 5px;
+    }
+
+    .player {
+      height: 200px !important;
+      width: 100% !important;
+    }
+
+    p {
+      text-align: center;
+    }
+  }
+
+  .trailer {
+    margin-bottom: 75px;
+  }
+
+  .overview {
+    margin-bottom: 25px;
+    margin-left: 100px;
+
+    .ant-card-head {
+      background-color: $secondary-color;
+      color: $primary-color;
+      text-align: left;
+    }
+
+    img {
+      height: 286px;
+      width: 203.33px;
+    }
+
+    .details-tab {
+      .add-btn {
+        background-color: $primary-color;
+        color: $secondary-color;
+        height: 40px;
+        margin-top: 10px;
+        width: 203.33px;
+      }
+
+      .ratings {
+        margin-bottom: 25px;
+
+        .ant-avatar {
+          background-color: $primary-color;
+          margin-right: 10px;
+        }
+
+        .imdb {
+          float: right;
+        }
+      }
+    }
+
+    .overview-additional {
+      margin-top: 100px;
+
+      a {
+        display: block;
+      }
+
+      img {
+        display: inline-block;
+        height: 150px;
+        margin-bottom: 15px;
+        width: 100px;
+      }
+
+      .ant-card-head {
+        background-color: $primary-color;
+        color: $secondary-color;
+      }
+
+      .cast-info {
+        display: inline-block;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+    }
+
+    .tabs {
+      margin-top: 0px;
+    }
+  }
+}
