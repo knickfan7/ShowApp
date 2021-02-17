@@ -18,19 +18,19 @@ Given time, I would like to add additional features to the application that incl
 
 ## Project Screen Shots
 
-<img src="images/homepage.png" width="200">
+<img src="images/homepage.png">
 
-<img src="images/results.png" width="200">
+<img src="images/results.png">
 
-<img src="images/tvpopular.png" width="200">
+<img src="images/tvpopular.png">
 
-<img src="images/showpage.png" width="200">
+<img src="images/showpage.png">
 
-<img src="images/recommendations.png" width="200">
+<img src="images/recommendations.png">
 
-<img src="images/addmodal.png" width="200">
+<img src="images/addmodal.png">
 
-<img src="images/collectionlist.png" width="200">
+<img src="images/collectionlist.png">
 
 ## Installation and Setup Instructions
 
