@@ -4,13 +4,37 @@ ShowApp is an application that allows users search and retrieve information abou
 
 ## Project Status
 
-This project is currently in development. Users can search by tv and movie title and retrieve information such as overview, rating, release date and cast. Users can sign up and login in and add shows to one of the default collections. Functionality to allow users to add comments about a show or movie as well as create their own collection is in progress.
+This project has mostly been completed. Users may search by the title of the movie or show and retrieve relevant information such as the synopsis (TMDB/IMDB), release date, genres, runtime and the status. They can also register and login through the navbar buttons. Once authorized, users can add shows and movies to one of the default collections (Currently Watching / Completed / On Hold / Dropped / Plan to Watch). They can assign a rating to the show, add comments and change the status as needed. 
+
+The design of the website draws heavily from two sites MyAnimeList and MyDramaList. APIs that were used were TMDB for most of the shows information and IMDB for rating and additional synopsis. 
+
+Given time, I would like to add additional features to the application that include:
+
+* Creating custom collections for users.
+
+* Add a more unique home page other than a search bar.
+
+* Allow Users to make their lists public and look up other user's watchlist.
 
 ## Project Screen Shots
 
+<img src="images/homepage.png" width="200">
+
+<img src="images/results.png" width="200">
+
+<img src="images/tvpopular.png" width="200">
+
+<img src="images/showpage.png" width="200">
+
+<img src="images/recommendations.png" width="200">
+
+<img src="images/addmodal.png" width="200">
+
+<img src="images/collectionlist.png" width="200">
+
 ## Installation and Setup Instructions
 
-Clone this repository and you will need node and npm installed globally on your machine.
+Clone this repository and you will need node and npm installed globally on your machine. The web application also uses PostgreSQL as the default database.
 
 Frontend Installation:
 
